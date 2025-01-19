@@ -1,5 +1,5 @@
 import './App.css';
-import MovieCard from './components/MovieCards'; // Ensure this path matches your file structure
+import MovieCard from './components/MovieCards'; 
 
 function App() {
 
