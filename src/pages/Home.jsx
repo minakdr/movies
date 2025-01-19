@@ -1,4 +1,7 @@
 import MovieCard from "../components/MovieCards"
+import { useState } from "react"
+
+
 
 function Home (){
 const movies =[
@@ -9,11 +12,15 @@ const movies =[
 
 ]
 
+
+
+
 const handleSearch = () => {}
 return (
 < div className="home">
 <form onsubmit={handleSearch} className="search-form">
     <input type="text" placeholder="Search for a movie..." className="search-input"/>
+    <button type ='submit' className="search-button" > Search</button>
 
 </form>
 
